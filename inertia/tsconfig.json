@@ -2,9 +2,12 @@
   "extends": "@adonisjs/tsconfig/tsconfig.client.json",
   "compilerOptions": {
     "module": "ESNext",
+    "jsx": "preserve",
+    "moduleResolution": "bundler",
+    "types": ["vite/client"],
     "paths": {
       "~/*": ["./*"],
     },
   },
-  "include": ["./**/*.ts", "./**/*.svelte"],
+  "include": ["./**/*.ts", "./**/*.tsx", "./**/*.svelte"],
 }

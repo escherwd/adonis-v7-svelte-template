@@ -1,5 +1,7 @@
 <script>
-export let error
+// export let error
+
+const { error } = $props();
 </script>
 
 <div>

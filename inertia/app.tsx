@@ -1,5 +1,6 @@
 /// <reference path="../adonisrc.ts" />
 /// <reference path="../config/inertia.ts" />
+/// <reference types="vite/client" />
 
 import './css/app.css'
 
